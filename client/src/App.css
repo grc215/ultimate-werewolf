@@ -1,5 +1,27 @@
+h1#activegame {
+  /* opacity: .5; */
+  color: white;
+  background: 
+  url('https://wallpaperfx.com/view_image/a-haunted-house-movie-1920x1080-wallpaper-16780.jpg'), rgba(255,255,255);
+}
+
+p#meetingCode {
+  color: white;
+  
+}
+
 .App {
   text-align: center;
+  background: rgb(10,10,10);
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .App-logo {
@@ -13,15 +35,32 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input#username {
+  width: 300px;
+}
+
+input#password {
+  width: 300px;
+}
+
+button#roles.ui.button {
+  float: right;
+  position:relative; top:-85px;
+}
+
+button#newGame.ui.button {
+  float: right;
+  position:relative; top:0px;
+}
+
+form.ui.form {
+  float: center;
+  position:relative; left:580px;
+}
+
+div.ui.icon.input {
+  
+  position:relative; top:-50px; left:630px;
 }
 
 .App-link {
@@ -36,3 +75,5 @@
     transform: rotate(360deg);
   }
 }
+
+

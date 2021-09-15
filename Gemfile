@@ -16,6 +16,8 @@ gem 'puma', '~> 5.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'rack-cors'#, require:'rack/cors'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -49,3 +51,5 @@ group :test do
 end
 
 gem "active_model_serializers", "~> 0.10.12"
+
+gem "jwt"
